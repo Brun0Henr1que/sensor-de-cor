@@ -35,7 +35,7 @@ detectButton.addEventListener('click', () => {
 });
 
 function isBlack(r, g, b) {
-  return r < 50 && g < 50 && b < 50;
+  return r < 100 && g < 100 && b < 100;
 }
 
 function markBlackBlock(x, y) {
